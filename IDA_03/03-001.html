@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Canvas Test</title>
+        <script>
+            //canvasの中身を指し示すもの
+            let ctx;
+            //canvasのwidth 幅
+            let cw;
+            //canvasのheightの高さ
+            let ch;
+
+            //初期化処理
+            function init(){
+                //IDがmycanvas = document.getElementById('mycanvas');
+                let canvasが存在しないか、 canvasの中身がなければ処理終了
+                if(!canvas||!canvas.getContext){
+                    return false;
+                }
+
+                //canvasの中身を指し示すものを代入
+                ctx = canvas.getContext('2d');
+                //canvasの幅・高さを代入しておく
+                cw = canvas.width
+                ch = canvas.height
+
+                
+            }
+        </script>
+    </head>
+</html>
